@@ -1,11 +1,11 @@
 # Meteor packages used by this project, one per line.
-# Check this file (and the other files in this directory) into your repository.
 #
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-meteor-platform
 insecure
-bootstrap-3
-iron-router
-spin
+standard-app-packages
+twbs:bootstrap
+underscore
+iron:router@1.0.0-rc.1
+sacha:spin
