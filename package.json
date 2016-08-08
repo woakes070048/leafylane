@@ -5,7 +5,8 @@
     "start": "meteor run"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0",
+    "axios": "^0.13.1",
+    "meteor-node-stubs": "^0.2.3",
     "radium": "^0.18.1",
     "react": "^15.3.0",
     "react-dom": "^15.3.0"
