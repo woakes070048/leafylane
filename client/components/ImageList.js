@@ -1,24 +1,10 @@
 import React from 'react';
 import ImageDetail from './ImageDetail';
 
-const IMAGES = [
-  {
-    title: 'Pen',
-    link: 'http://dummyimage.com/600x400',
-  },
-  {
-    title: 'Pine Tree',
-    link: 'http://dummyimage.com/600x400',
-  },
-  {
-    title: 'Mug',
-    link: 'http://dummyimage.com/600x400',
-  },
-];
-
-const ImageList = () => {
-  const Images = IMAGES.map(image =>
-    <ImageDetail key={image.title} image={image} />
+const ImageList = (props) => {
+  const validImages = props.images.filter(image => !image.is_album);
+  const Images = props.images.map(validImages =>
+    <ImageDetail key={images.title} image={images.link} />
   );
 
   return (
