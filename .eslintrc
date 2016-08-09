@@ -13,5 +13,8 @@
     "Meteor": true
     },
   "plugins": ["meteor", "React"],
-  "extends": ["plugin:meteor/recommended", "airbnb"]
+  "extends": ["plugin:meteor/recommended", "airbnb"],
+  "rules": {
+    "import/no-unresolved": 0
+  },
 }
