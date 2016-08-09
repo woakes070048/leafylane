@@ -17,4 +17,8 @@ const EmployeeDetail = ({ employee }) => {
   );
 };
 
+EmployeeDetail.propTypes = {
+  employee: React.PropTypes.array,
+};
+
 export default EmployeeDetail;

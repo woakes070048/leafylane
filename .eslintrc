@@ -1,3 +1,4 @@
 {
-  "extends": "airbnb"
+  "plugins": ["meteor", "React"],
+  "extends": ["plugin:meteor/recommended", "airbnb"]
 }

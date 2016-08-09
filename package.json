@@ -13,5 +13,9 @@
     "react": "^15.3.0",
     "react-addons-pure-render-mixin": "^15.3.0",
     "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-plugin-meteor": "^4.0.0"
   }
 }
