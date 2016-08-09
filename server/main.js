@@ -11,6 +11,7 @@ Meteor.startup(() => {
     // Faker to generate some dummy data
     _.times(5000, () => {
       const { name, email, phone } = helpers.createCard();
+
       // Insert 5000 new employees generated
       // via faker into our Employees collection
       Employees.insert({
