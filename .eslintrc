@@ -1,4 +1,17 @@
 {
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "meteor": true
+  },
+  "globals": {
+    "Meteor": true
+    },
   "plugins": ["meteor", "React"],
   "extends": ["plugin:meteor/recommended", "airbnb"]
 }
