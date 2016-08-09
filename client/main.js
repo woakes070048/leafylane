@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import EmployeeList from './components/EmployeeList';
 
 function App() {
-  return <EmployeeList />;
+  return <div>Hello</div>;
 }
 
 Meteor.startup(() => {
